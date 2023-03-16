@@ -99,7 +99,6 @@
             [kaocha.plugin.capture-output :as capture]
             [kaocha.stacktrace :as stacktrace]
             [kaocha.testable :as testable]
-            [kaocha.testable :as testable]
             [kaocha.util :as util]
             [slingshot.slingshot :refer [throw+]]))
 
@@ -419,6 +418,7 @@
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 
 (def dots
   "Reporter that prints progress as a sequence of dots and letters."
